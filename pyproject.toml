@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "LLM middleware that dramatically reduces token costs in agentic workflows"
 readme = "README.md"
 license = { file = "LICENSE" }
-authors = [{ name = "AgentLean Contributors" }]
+authors = [{ name = "Tiago Fernandes" }]
 keywords = [
     "llm",
     "ai",
@@ -49,9 +49,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/agentlean/agentlean"
-Repository = "https://github.com/agentlean/agentlean"
-"Bug Tracker" = "https://github.com/agentlean/agentlean/issues"
+Homepage = "https://github.com/TiagoRMFernandes/AgentLean"
+Repository = "https://github.com/TiagoRMFernandes/AgentLean"
+"Bug Tracker" = "https://github.com/TiagoRMFernandes/AgentLean/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["agentlean"]
