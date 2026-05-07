@@ -3,7 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/agentlean.svg)](https://badge.fury.io/py/agentlean)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://github.com/agentlean/agentlean/actions/workflows/test.yml/badge.svg)](https://github.com/agentlean/agentlean/actions)
+[![Tests](https://github.com/TiagoRMFernandes/AgentLean/actions/workflows/test.yml/badge.svg)](https://github.com/TiagoRMFernandes/AgentLean/actions)
 
 **Cut your AI agent costs by 40–80% with one line of code.**
 
