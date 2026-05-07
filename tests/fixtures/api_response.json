@@ -1,0 +1,28 @@
+{
+  "simple_tool_result": {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "tu_test_001",
+        "content": "The weather in London today is 15°C with partly cloudy skies. Humidity is 72%. Wind speed: 18 km/h from the southwest. Forecast: light rain expected this afternoon."
+      }
+    ]
+  },
+  "large_tool_result": {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "tu_test_002",
+        "content": "LARGE_CONTENT_PLACEHOLDER: This would be a very long tool result with thousands of tokens. For testing purposes, imagine this is a full web page or large API response that exceeds the configured max_tool_output_tokens threshold and needs to be distilled before re-entering the context window."
+      }
+    ]
+  },
+  "openai_tool_message": {
+    "role": "tool",
+    "tool_call_id": "call_abc123",
+    "name": "web_search",
+    "content": "Search results for 'Python web frameworks 2024': FastAPI and Django are the leading choices..."
+  }
+}

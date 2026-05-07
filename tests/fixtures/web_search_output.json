@@ -1,0 +1,53 @@
+{
+  "html_output": "<!DOCTYPE html><html><head><title>Python Web Frameworks 2024</title><meta charset='UTF-8'><meta name='viewport' content='width=device-width'><link rel='stylesheet' href='/styles.css'><script src='/analytics.js'></script></head><body><nav class='main-nav'><ul><li><a href='/'>Home</a></li><li><a href='/blog'>Blog</a></li><li><a href='/about'>About</a></li></ul></nav><header class='site-header'><div class='logo'>TechBlog</div><div class='search-bar'><input type='text' placeholder='Search...'></div></header><aside class='sidebar'><div class='advertisement'>Advertisement: Learn Python Online!</div><div class='related-posts'><h3>Related Posts</h3><ul><li><a href='/post/1'>JavaScript Frameworks</a></li></ul></div></aside><main class='content'><article><h1>Top Python Web Frameworks in 2024</h1><p>Python web frameworks have evolved significantly. Here is our comprehensive analysis.</p><p>Django remains the most popular choice for full-stack development with its batteries-included philosophy. FastAPI has emerged as the go-to for high-performance APIs. Flask continues to be valued for its simplicity and flexibility.</p><h2>Performance Benchmarks</h2><p>FastAPI leads performance benchmarks at 47,000 req/s, followed by Sanic at 30,000, Tornado at 25,000, Django at 12,000, and Flask at 10,000 requests per second.</p><h2>Community and Adoption</h2><p>Django has the largest community with 75,000 GitHub stars. FastAPI is growing fastest with 68,000 stars despite being newer.</p></article></main><footer class='site-footer'><div class='footer-links'><a href='/privacy'>Privacy Policy</a><a href='/terms'>Terms of Service</a></div><div class='cookie-notice'>We use cookies to improve your experience. <button>Accept</button></div></footer></body></html>",
+  "json_api_response": {
+    "status": "success",
+    "query": "python web frameworks performance 2024",
+    "results_count": 10,
+    "pagination": {
+      "page": 1,
+      "per_page": 10,
+      "total_pages": 5,
+      "next_page_url": "https://api.example.com/search?page=2"
+    },
+    "metadata": {
+      "search_id": "abc123xyz",
+      "timestamp": "2024-11-15T10:30:00Z",
+      "cache_hit": false,
+      "processing_time_ms": 245,
+      "region": "us-east-1"
+    },
+    "results": [
+      {
+        "id": 1,
+        "title": "FastAPI vs Django Performance Comparison 2024",
+        "url": "https://techblog.example.com/fastapi-django-2024",
+        "snippet": "FastAPI outperforms Django by 4x in API benchmarks",
+        "domain": "techblog.example.com",
+        "published_date": "2024-10-01",
+        "relevance_score": 0.97,
+        "word_count": 2450,
+        "image_url": null,
+        "tags": ["python", "fastapi", "django", "performance"],
+        "framework_data": {
+          "fastapi_rps": 47000,
+          "django_rps": 12000,
+          "flask_rps": 10000
+        }
+      },
+      {
+        "id": 2,
+        "title": "Django Still Dominates Enterprise Python Development",
+        "url": "https://devnews.example.com/django-enterprise-2024",
+        "snippet": "Despite newer frameworks, Django maintains leadership in enterprise",
+        "domain": "devnews.example.com",
+        "published_date": "2024-09-15",
+        "relevance_score": 0.94,
+        "word_count": 1800,
+        "image_url": "https://cdn.example.com/django-logo.png",
+        "tags": ["django", "enterprise", "python"]
+      }
+    ]
+  },
+  "long_text_output": "Python web frameworks have a rich history dating back to the early 2000s. The ecosystem has grown tremendously over the past two decades, with new frameworks emerging to address different use cases and paradigms.\n\nDjango, released in 2005, was developed at the Lawrence Journal-World newspaper and was designed to meet the fast-moving newsroom deadlines. The framework was named after jazz guitarist Django Reinhardt. Django's design philosophy emphasizes reusability, pluggability, and rapid development. The framework includes an ORM, templating engine, authentication system, and an automatic admin interface.\n\nFlask, released in 2010 by Armin Ronacher, took a different approach — a microframework that provides only the essential tools, leaving architectural decisions to the developer. Flask is built on Werkzeug (a WSGI utility library) and Jinja2 (a templating engine). Its minimalist design makes it perfect for small projects and microservices.\n\nFastAPI, released in 2018 by Sebastián Ramírez, leverages Python's type hints to provide automatic validation, serialization, and documentation. It uses Starlette for the ASGI (Asynchronous Server Gateway Interface) support and Pydantic for data validation. FastAPI has become the fastest-growing Python web framework, particularly in the data science and machine learning communities where API performance is critical.\n\nTornado, originally developed at FriendFeed (acquired by Facebook), is built around an asynchronous networking library. It excels in scenarios requiring long-lived connections such as WebSockets and server-sent events. Tornado's event loop predates Python's asyncio and influenced its design.\n\nSanic is built specifically for speed, using uvloop (an ultra-fast asyncio event loop implementation) and designed from the ground up for async request handling. It targets the same performance niche as Tornado but with a more modern API.\n\nWhen choosing between these frameworks, consider your team's expertise, the application requirements, the ecosystem of packages needed, and the long-term maintenance burden. Django's comprehensive ecosystem reduces integration work but adds weight. Flask's flexibility is powerful but requires more upfront architectural decisions. FastAPI's type safety and performance make it excellent for API-first projects but requires familiarity with modern Python features.\n\nPerformance benchmarks should be taken in context — raw request-per-second numbers rarely determine the bottleneck in real applications, where database queries, external API calls, and business logic dominate response time. Choose the framework that lets your team build and maintain the application most effectively."
+}
